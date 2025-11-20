@@ -10,6 +10,6 @@ constructor(nom, age, section){
     this.section = section
 }
 
-
+description() { return `${this.nom}(${this.age} ans) - Section: ${this.section}`;}
 
 }
